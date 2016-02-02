@@ -23,7 +23,7 @@ If you want to try out something of your own and send a patch, you are most welc
 docker build -t centos-ruby .
 docker run -it --rm centos-ruby /bin/bash`
 
-`docker tag centos-bpd rightsoln/centos-ruby:latest
+`docker tag centos-ruby rightsoln/centos-ruby:latest
 docker push rightsoln/centos-ruby:latest`
 
 ## Author
